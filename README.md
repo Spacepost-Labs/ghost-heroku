@@ -34,10 +34,10 @@ This repository is a [Node.js](https://nodejs.org) web application that specifie
 Optionally after deployment, to push Ghost upgrades or work with source code, clone this repo (or a fork) and connect it with the Heroku app:
 
 ```bash
-git clone https://github.com/m1guelpf/ghost-heroku
+git clone https://github.com/Spacepost-Labs/ghost-heroku.git
 cd ghost-heroku
 
-heroku git:remote -a YOURAPPNAME
+heroku git:remote -a ghost-spacepost
 heroku info
 ```
 
